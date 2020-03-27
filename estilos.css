@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+}
+
+i{
+    color: #ed1b2e;
+}

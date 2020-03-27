@@ -9,23 +9,27 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Bin to Decimal App</h1>
-            <h2>Binary to Decimal Converter</h2>
+        <header class="mb-5 mt-5">
+            <h1 class="text-center">Bin to Decimal App</h1>
+            <h2 class="text-center">Binary to Decimal Converter</h2>
         </header>
         <main>
-            <form action="">
-                <label for="binary">Binary: </label>
-                <input class="input" type="text" name="binary" id="binary">
-                <label class="input" for="decimal">Decimal</label>
-                <input type="text" name="decimal" id="decimal">
-                <input type="submit" value="Convert">
+            <form class="d-flex flex-column align-items-center" action="">
+                <div class="form-group w-25">
+                    <label for="binary">Binary: </label>
+                    <input class="form-control" type="text" name="binary" id="binary">
+                </div>
+                <div class="form-group w-25">
+                    <label for="decimal">Decimal: </label>
+                    <input class="form-control" type="text" name="decimal" id="decimal">
+                </div>
+                <button type="submit" class="btn btn-primary">Convert</button>
             </form>
         </main>
-        <footer>
-            <p>Made with by SerioCodes</p>
-        </footer>
     </div>
+    <footer class="bg-dark text-white text-center">
+        <p class="p-3 mb-0">Made with <i class="fas fa-heart"></i> by Felipe C.</p>
+    </footer>
     <script src="https://kit.fontawesome.com/03ad672f06.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
