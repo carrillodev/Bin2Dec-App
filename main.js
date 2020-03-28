@@ -1,9 +1,13 @@
 var btn = document.getElementById('btn');
+var form = document.getElementById('form');
 
-btn.addEventListener('click', function(e){
-    e.preventDefault();
+btn.addEventListener('click', function(event){
+    event.preventDefault();
+
     let binary = document.getElementById('binary').value;
     let decimal = document.getElementById('decimal').value;
+    let diverror = document.getElementById('error');
+
     let error = false;
     let c=0, r=0;
 
@@ -19,5 +23,8 @@ btn.addEventListener('click', function(e){
 
     if(!error){
         document.getElementById('decimal').value = r;
+    }else{
+        diverror.classList.remove('d-none');
+        diverror.classList.add('d-block');
     }
 });

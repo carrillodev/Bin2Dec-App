@@ -14,10 +14,11 @@
             <h2 class="text-center">Binary to Decimal Converter</h2>
         </header>
         <main>
-            <form class="d-flex flex-column align-items-center">
+            <form id="form" class="d-flex flex-column align-items-center">
                 <div class="form-group w-25">
                     <label for="binary">Binary: </label>
                     <input id="binary" class="form-control form-control-lg" type="text" name="binary" id="binary">
+                    <small id="error" class="form-text text-muted bg-danger mt-0 d-none"><p class="p-1">This isn't a binary number</p></small>
                 </div>
                 <div class="form-group w-25">
                     <label for="decimal">Decimal: </label>

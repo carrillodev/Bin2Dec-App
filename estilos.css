@@ -22,3 +22,8 @@ i{
 label{
     font-size: 1.1em;
 }
+
+small>p{
+    color: #fff;
+    margin: 0;
+}
