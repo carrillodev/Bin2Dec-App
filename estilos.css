@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 16px;
+}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -13,4 +17,8 @@ footer{
 
 i{
     color: #ed1b2e;
+}
+
+label{
+    font-size: 1.2em;
 }

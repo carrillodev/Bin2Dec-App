@@ -17,5 +17,7 @@ btn.addEventListener('click', function(e){
         c++;
     }
 
-    if(f)
+    if(!error){
+        document.getElementById('decimal').value = r;
+    }
 });
