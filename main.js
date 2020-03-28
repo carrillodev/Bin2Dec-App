@@ -22,6 +22,8 @@ btn.addEventListener('click', function(event){
     }
 
     if(!error){
+        diverror.classList.add('d-none');
+        diverror.classList.remove('d-block');
         document.getElementById('decimal').value = r;
     }else{
         diverror.classList.remove('d-none');
