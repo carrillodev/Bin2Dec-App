@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
 body{
     font-size: 16px;
 }
