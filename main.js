@@ -13,7 +13,7 @@ btn.addEventListener('click', function(event){
 
     for(let i=binary.length-1; i>=0; --i){
         let n = parseInt(binary.charAt(i));
-        if(n>1){
+        if(n>1 || isNaN(n)){
             error=true;
             break;
         }
